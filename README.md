@@ -9,16 +9,13 @@
 <a href="https://hassanireza.github.io/">
   <img src="https://img.shields.io/badge/PORTFOLIO-hassanireza.github.io-050506?style=for-the-badge&labelColor=111318&color=e9e4da" alt="Portfolio"/>
 </a>
-<a href="https://hassanireza.github.io/branding">
-  <img src="https://img.shields.io/badge/BRAND_SYSTEM-View_Direction-050506?style=for-the-badge&labelColor=111318&color=9a9d95" alt="Brand and art direction"/>
-</a>
 <a href="mailto:reza-h@att.net">
   <img src="https://img.shields.io/badge/CONTACT-Get_in_touch-050506?style=for-the-badge&labelColor=111318&color=6d727b" alt="Contact"/>
 </a>
 <a href="https://www.linkedin.com/in/hr-/">
   <img src="https://img.shields.io/badge/LINKEDIN-Connect-050506?style=for-the-badge&labelColor=111318&color=2b3038" alt="LinkedIn"/>
 </a>
-<a href="https://hassanireza.github.io/hassanireza/">
+<a href="https://hassanireza.github.io/descent">
   <img src="https://img.shields.io/badge/THE_DESCENT-Career_Roadmap-050506?style=for-the-badge&labelColor=111318&color=5f7a6f" alt="The Descent, a visual career roadmap"/>
 </a>
 
