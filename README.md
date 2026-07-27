@@ -9,7 +9,7 @@
 <a href="https://hassanireza.github.io/">
   <img src="https://img.shields.io/badge/PORTFOLIO-hassanireza.github.io-050506?style=for-the-badge&labelColor=111318&color=e9e4da" alt="Portfolio"/>
 </a>
-<a href="mailto:reza-h@att.net">
+<a href="mailto:hassanireza@att.net">
   <img src="https://img.shields.io/badge/CONTACT-Get_in_touch-050506?style=for-the-badge&labelColor=111318&color=6d727b" alt="Contact"/>
 </a>
 <a href="https://hassanireza.github.io/descent">
