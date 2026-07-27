@@ -237,11 +237,11 @@ Every project I ship carries a written brand system before a single line of inte
 <img src="./assets/svg/mark-undertow.svg" width="40" height="40" alt=""/>
 
 ### [Undertow](https://hassanireza.github.io/undertow/)
-<sub>Web design & motion graphics studio — full-stack, live demo</sub>
+<sub>Web design & motion graphics studio | full-stack, live demo</sub>
 
 </div>
 
-A studio site built on a single premise: restraint is a design choice, not an absence of one. Undertow is a fictional web design and motion graphics studio, brought to life as a full-stack React and Django application — one clear hierarchy, considered type, and motion that earns its place, nothing added because it was easy, nothing left in because no one questioned it.
+A studio site built on a single premise: restraint is a design choice, not an absence of one. Undertow is a fictional web design and motion graphics studio, brought to life as a full-stack React and Django application, one clear hierarchy, considered type, and motion that earns its place, nothing added because it was easy, nothing left in because no one questioned it.
 
 <div align="center">
 <img src="./assets/svg/undertow-architecture.svg" width="100%" alt="Undertow architecture: React SPA to Django REST Framework to PostgreSQL, scoped by organization"/>
@@ -249,7 +249,7 @@ A studio site built on a single premise: restraint is a design choice, not an ab
 
 <br/>
 
-The front end is a strict-TypeScript React SPA served from Vite, with a class-based domain model shared across the codebase. The back end is Django and Django REST Framework, structured around multi-tenant scoping (`Organization`, `Membership`) so the same codebase can serve more than one studio without a rewrite — a public read-only API for the portfolio, a write-only endpoint for inquiries, and Django admin as the only internal tool by design, no dashboard to maintain until there's a reason for one.
+The front end is a strict-TypeScript React SPA served from Vite, with a class-based domain model shared across the codebase. The back end is Django and Django REST Framework, structured around multi-tenant scoping (`Organization`, `Membership`) so the same codebase can serve more than one studio without a rewrite, a public read-only API for the portfolio, a write-only endpoint for inquiries, and Django admin as the only internal tool by design, no dashboard to maintain until there's a reason for one.
 
 <div align="center">
 
