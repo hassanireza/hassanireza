@@ -1,0 +1,76 @@
+<svg width="100%" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Undertow architecture: React SPA to Django REST Framework to PostgreSQL, scoped by organization">
+  <defs>
+    <radialGradient id="arch-glow" cx="14%" cy="8%" r="60%">
+      <stop offset="0%" stop-color="#e9e4da" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e9e4da" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arch-arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6d727b"/>
+    </marker>
+    <style>
+      .label { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e9e4da; letter-spacing: 0.02em; }
+      .sub   { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #9a9d95; }
+      .eyebrow { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 10.5px; fill: #6d727b; letter-spacing: 0.12em; text-transform: uppercase; }
+      .mono { font-family: "SF Mono", Consolas, monospace; font-size: 11px; fill: #6d727b; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="460" fill="#050506"/>
+  <rect x="0" y="0" width="900" height="460" fill="url(#arch-glow)"/>
+
+  <!-- CLIENT TIER -->
+  <text x="40" y="38" class="eyebrow">Client</text>
+  <rect x="40" y="48" width="380" height="86" rx="2" fill="#111318" stroke="#2b3038" stroke-width="1"/>
+  <text x="60" y="82" class="label">React 19 · TypeScript · Vite SPA</text>
+  <text x="60" y="104" class="sub">Strict typing, shared domain model, served static via GitHub Pages</text>
+
+  <rect x="480" y="48" width="380" height="86" rx="2" fill="#111318" stroke="#2b3038" stroke-width="1"/>
+  <text x="500" y="82" class="label">Django Admin</text>
+  <text x="500" y="104" class="sub">The only internal tool this phase — no custom dashboard yet</text>
+
+  <!-- connector: client to api -->
+  <line x1="230" y1="134" x2="230" y2="188" stroke="#6d727b" stroke-width="1" marker-end="url(#arch-arrow)"/>
+  <line x1="670" y1="134" x2="670" y2="188" stroke="#3c4b46" stroke-width="1" marker-end="url(#arch-arrow)"/>
+
+  <!-- API TIER -->
+  <text x="40" y="212" class="eyebrow">API — Django REST Framework</text>
+  <rect x="40" y="222" width="820" height="112" rx="2" fill="#111318" stroke="#2b3038" stroke-width="1"/>
+
+  <rect x="64" y="248" width="230" height="62" rx="2" fill="#0a0b0d" stroke="#2b3038" stroke-width="1"/>
+  <text x="82" y="272" class="mono">GET /api/v1/projects/</text>
+  <text x="82" y="290" class="sub">public · read-only</text>
+
+  <rect x="316" y="248" width="230" height="62" rx="2" fill="#0a0b0d" stroke="#2b3038" stroke-width="1"/>
+  <text x="334" y="272" class="mono">GET /api/v1/categories/</text>
+  <text x="334" y="290" class="sub">public · read-only</text>
+
+  <rect x="568" y="248" width="268" height="62" rx="2" fill="#0a0b0d" stroke="#3c4b46" stroke-width="1.25"/>
+  <text x="586" y="272" class="mono">POST /api/v1/inquiries/</text>
+  <text x="586" y="290" class="sub">public · write-only</text>
+  <circle cx="812" cy="279" r="3" fill="#3c4b46" stroke="#e9e4da" stroke-width="0.5"/>
+
+  <!-- connector: api to data -->
+  <line x1="450" y1="334" x2="450" y2="378" stroke="#6d727b" stroke-width="1" marker-end="url(#arch-arrow)"/>
+
+  <!-- DATA TIER -->
+  <text x="40" y="360" class="eyebrow">Data — PostgreSQL, scoped by tenancy</text>
+  <rect x="40" y="378" width="820" height="60" rx="2" fill="#111318" stroke="#2b3038" stroke-width="1"/>
+
+  <text x="64" y="404" class="label">apps.tenancy</text>
+  <text x="64" y="422" class="sub">Organization · Membership</text>
+
+  <line x1="230" y1="392" x2="230" y2="424" stroke="#2b3038" stroke-width="1"/>
+
+  <text x="252" y="404" class="label">apps.portfolio</text>
+  <text x="252" y="422" class="sub">Category · Media · Project</text>
+
+  <line x1="470" y1="392" x2="470" y2="424" stroke="#2b3038" stroke-width="1"/>
+
+  <text x="492" y="404" class="label">apps.inquiries</text>
+  <text x="492" y="422" class="sub">Inquiry</text>
+
+  <line x1="650" y1="392" x2="650" y2="424" stroke="#2b3038" stroke-width="1"/>
+
+  <text x="672" y="404" class="label">Railway</text>
+  <text x="672" y="422" class="sub">Postgres plugin · migrate on release</text>
+</svg>
