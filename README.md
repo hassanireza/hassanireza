@@ -228,25 +228,37 @@ Every project I ship carries a written brand system before a single line of inte
 
 <div align="center">
 
-<a href="https://hassanireza.github.io/abyssalLiturgy/">
-  <img src="https://raw.githubusercontent.com/hassanireza/hassanireza/main/assets/banner.webp" width="100%" alt="Abyssal Liturgy project preview"/>
+<a href="https://hassanireza.github.io/undertow/">
+  <img src="https://raw.githubusercontent.com/hassanireza/hassanireza/main/assets/undertow.webp" width="100%" alt="Undertow project preview"/>
 </a>
 
 <br/><br/>
 
-### [Abyssal Liturgy](https://hassanireza.github.io/abyssalLiturgy/)
+<img src="./assets/svg/mark-undertow.svg" width="40" height="40" alt=""/>
+
+### [Undertow](https://hassanireza.github.io/undertow/)
+<sub>Web design & motion graphics studio — full-stack, live demo</sub>
 
 </div>
 
-A single-page, scroll-driven brewing guide for six coffee methods, built as a React and TypeScript SPA. Each method is illustrated with a frame-by-frame video sequence scrubbed by scroll position, the same technique used on Apple's product pages, powered by GSAP 3 and ScrollTrigger.
+A studio site built on a single premise: restraint is a design choice, not an absence of one. Undertow is a fictional web design and motion graphics studio, brought to life as a full-stack React and Django application — one clear hierarchy, considered type, and motion that earns its place, nothing added because it was easy, nothing left in because no one questioned it.
+
+<div align="center">
+<img src="./assets/svg/undertow-architecture.svg" width="100%" alt="Undertow architecture: React SPA to Django REST Framework to PostgreSQL, scoped by organization"/>
+</div>
+
+<br/>
+
+The front end is a strict-TypeScript React SPA served from Vite, with a class-based domain model shared across the codebase. The back end is Django and Django REST Framework, structured around multi-tenant scoping (`Organization`, `Membership`) so the same codebase can serve more than one studio without a rewrite — a public read-only API for the portfolio, a write-only endpoint for inquiries, and Django admin as the only internal tool by design, no dashboard to maintain until there's a reason for one.
 
 <div align="center">
 
-[![React](https://img.shields.io/badge/react-18-e9e4da?style=flat-square&logo=react&logoColor=050506)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/typescript-5-e9e4da?style=flat-square&logo=typescript&logoColor=050506)](https://www.typescriptlang.org)
-[![Vite](https://img.shields.io/badge/vite-5-e9e4da?style=flat-square&logo=vite&logoColor=050506)](https://vitejs.dev)
-[![GSAP](https://img.shields.io/badge/gsap-3-e9e4da?style=flat-square&logo=greensock&logoColor=050506)](https://gsap.com)
-[![Brand Book](https://img.shields.io/badge/brand_book-view_direction-e9e4da?style=flat-square&logoColor=050506)](https://hassanireza.github.io/branding)
+[![React](https://img.shields.io/badge/react-e9e4da?style=flat-square&logo=react&logoColor=050506)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/typescript-e9e4da?style=flat-square&logo=typescript&logoColor=050506)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/vite-e9e4da?style=flat-square&logo=vite&logoColor=050506)](https://vitejs.dev)
+[![Django](https://img.shields.io/badge/django-e9e4da?style=flat-square&logo=django&logoColor=050506)](https://www.djangoproject.com)
+[![PostgreSQL](https://img.shields.io/badge/postgresql-e9e4da?style=flat-square&logo=postgresql&logoColor=050506)](https://www.postgresql.org)
+[![Railway](https://img.shields.io/badge/railway-e9e4da?style=flat-square&logo=railway&logoColor=050506)](https://railway.app)
 
 </div>
 
