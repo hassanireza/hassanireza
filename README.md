@@ -220,7 +220,7 @@ Every project I ship carries a written brand system before a single line of inte
 | ![#050506](https://placehold.co/80x40/050506/050506.png?text=+) | ![#111318](https://placehold.co/80x40/111318/111318.png?text=+) | ![#2b3038](https://placehold.co/80x40/2b3038/2b3038.png?text=+) | ![#6d727b](https://placehold.co/80x40/6d727b/6d727b.png?text=+) | ![#e9e4da](https://placehold.co/80x40/e9e4da/e9e4da.png?text=+) | ![#3c4b46](https://placehold.co/80x40/3c4b46/3c4b46.png?text=+) |
 | `#050506` | `#111318` | `#2b3038` | `#6d727b` | `#e9e4da` | `#3c4b46` |
 
-**Governing rule:** ninety-five percent black, one light source, texture over color as the primary signal. [View the full brand and art direction →](https://hassanireza.github.io/branding)
+**Governing rule:** ninety-five percent black, one light source, texture over color as the primary signal. [View the brand and art direction →](https://hassanireza.github.io/branding)
 
 <br/>
 
