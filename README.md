@@ -62,8 +62,6 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-This repository is also the source for my personal site: a fully typed React and TypeScript single-page application, rebuilt from the ground up and deployed automatically to GitHub Pages on every push to `main`.
-
 <table align="center">
 <tr>
 <td width="60%" valign="top">
