@@ -223,37 +223,46 @@ Every project I ship carries a written brand system before a single line of inte
 
 <div align="center">
 
-<a href="https://hassanireza.github.io/undertow/">
-  <img src="https://raw.githubusercontent.com/hassanireza/hassanireza/main/assets/undertow.webp" width="100%" alt="Undertow project preview"/>
+<a href="https://woodlandchess.github.io/">
+  <img src="./assets/svg/woodland-banner.svg" width="100%" alt="Woodland Chess banner: Play with intent. Three modes: Computer, Play online and Puzzles."/>
 </a>
 
 <br/><br/>
 
-<img src="./assets/svg/mark-undertow.svg" width="40" height="40" alt=""/>
+<img src="./assets/svg/mark-woodland.svg" width="40" height="40" alt=""/>
 
-### [Undertow](https://hassanireza.github.io/undertow/)
-<sub>Web design & motion graphics studio | full-stack, live demo</sub>
+### [Woodland Chess](https://woodlandchess.github.io/)
+<sub>Mobile-first chess app | Stockfish in WebAssembly, Lichess integration, live demo</sub>
 
 </div>
 
-A studio site built on a single premise: restraint is a design choice, not an absence of one. Undertow is a fictional web design and motion graphics studio, brought to life as a full-stack React and Django application, one clear hierarchy, considered type, and motion that earns its place, nothing added because it was easy, nothing left in because no one questioned it.
+A chess application built on the same premise as everything above: restraint is a design choice, not an absence of one. Woodland Chess has three modes that share one visual language: Computer play against Stockfish 18 Lite running locally as WebAssembly, live games through the Lichess Board API, and rated tactics from the Lichess puzzle database. It inherits the Abyssal Liturgy system directly, with near-black surfaces, Cormorant Garamond italics, one 24px icon family and a 2px radius, and every colour, spacing value and easing curve lives as a CSS custom property.
 
 <div align="center">
-<img src="./assets/svg/undertow-architecture.svg" width="100%" alt="Undertow architecture: React SPA to Django REST Framework to PostgreSQL, scoped by organization"/>
+<img src="./assets/svg/woodland-architecture.svg" width="100%" alt="Woodland Chess architecture: a shared UI layer feeds three independent modes, Computer, Online and Puzzles, each backed by its own services and external dependency"/>
 </div>
 
 <br/>
 
-The front end is a strict-TypeScript React SPA served from Vite, with a class-based domain model shared across the codebase. The back end is Django and Django REST Framework, structured around multi-tenant scoping (`Organization`, `Membership`) so the same codebase can serve more than one studio without a rewrite, a public read-only API for the portfolio, a write-only endpoint for inquiries, and Django admin as the only internal tool by design, no dashboard to maintain until there's a reason for one.
+The front end is a strict-TypeScript React SPA served from Vite, with History API routing and no router dependency. There is no backend of our own: Computer mode makes no network calls beyond loading fonts, online play uses OAuth with PKCE straight from the browser, and puzzles read the public Lichess API. A thin shared layer (menu frame, mode navigation, design tokens) sits under three independent modes: `chess.js` and a Stockfish UCI client for Computer, an NDJSON stream reader for Online, and a state-machine puzzle engine with scoring, streaks and achievements. CI tests, builds and deploys to GitHub Pages on every push.
 
 <div align="center">
 
 [![React](https://img.shields.io/badge/react-e9e4da?style=flat-square&logo=react&logoColor=050506)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/typescript-e9e4da?style=flat-square&logo=typescript&logoColor=050506)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/vite-e9e4da?style=flat-square&logo=vite&logoColor=050506)](https://vitejs.dev)
-[![Django](https://img.shields.io/badge/django-e9e4da?style=flat-square&logo=django&logoColor=050506)](https://www.djangoproject.com)
-[![PostgreSQL](https://img.shields.io/badge/postgresql-e9e4da?style=flat-square&logo=postgresql&logoColor=050506)](https://www.postgresql.org)
-[![Railway](https://img.shields.io/badge/railway-e9e4da?style=flat-square&logo=railway&logoColor=050506)](https://railway.app)
+[![WebAssembly](https://img.shields.io/badge/webassembly-e9e4da?style=flat-square&logo=webassembly&logoColor=050506)](https://webassembly.org)
+[![Lichess](https://img.shields.io/badge/lichess-e9e4da?style=flat-square&logo=lichess&logoColor=050506)](https://lichess.org/api)
+[![GitHub Pages](https://img.shields.io/badge/github_pages-e9e4da?style=flat-square&logo=githubpages&logoColor=050506)](https://pages.github.com)
+
+<br/>
+
+<a href="https://woodlandchess.github.io/">
+  <img src="https://img.shields.io/badge/PLAY_NOW-woodlandchess.github.io-050506?style=for-the-badge&labelColor=111318&color=e9e4da" alt="Play Woodland Chess"/>
+</a>
+<a href="https://github.com/woodlandChess/woodlandChess.github.io">
+  <img src="https://img.shields.io/badge/SOURCE-GitHub_repository-050506?style=for-the-badge&labelColor=111318&color=5f7a6f" alt="Woodland Chess source on GitHub"/>
+</a>
 
 </div>
 
