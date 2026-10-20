@@ -32,7 +32,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 </td>
 <td width="35%" valign="top">
 
-<img src="./assets/svg/icons/spark.svg" width="20" height="20" align="absmiddle" alt=""/> **Core Strengths**
+<img src="./assets/svg/icons/spark.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Core Strengths</b>
 
 <table>
 <tr><td width="36" valign="top"><img src="./assets/svg/icons/pen.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Design-to-code, Figma to production CSS</td></tr>
@@ -60,13 +60,9 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-<table align="center">
-<tr>
-<td width="60%" valign="top">
+<img src="./assets/svg/icons/browser.svg" width="20" height="20" align="absmiddle" alt=""/> <b>What it does</b>
 
-<img src="./assets/svg/icons/browser.svg" width="20" height="20" align="absmiddle" alt=""/> **What it does**
-
-<table>
+<table width="100%">
 <tr><td width="36" valign="top"><img src="./assets/svg/icons/particles.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Landing page with a canvas-based particle field animation</td></tr>
 <tr><td width="36" valign="top"><img src="./assets/svg/icons/board.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">A portfolio grid pulling from a single typed data source, so adding a project is a two-line edit, not a layout change</td></tr>
 <tr><td width="36" valign="top"><img src="./assets/svg/icons/shield.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">A contact form protected by Cloudflare Turnstile, submitting through Formspree</td></tr>
@@ -74,23 +70,15 @@ I work the seam between mockup and shipped product, holding engineering discipli
 <tr><td width="36" valign="top"><img src="./assets/svg/icons/deploy.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Zero manual deploys: CI lints, type-checks, builds, and publishes on every push</td></tr>
 </table>
 
-</td>
-<td width="40%" valign="top">
+<br/>
 
-<img src="./assets/svg/icons/layers.svg" width="20" height="20" align="absmiddle" alt=""/> **Built with**
+<img src="./assets/svg/icons/layers.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Built with</b>
 
 <br/>
 
-<img src="./assets/svg/chips/site-react-19.svg" height="28" alt="React 19"/><br/>
-<img src="./assets/svg/chips/site-typescript.svg" height="28" alt="TypeScript"/><br/>
-<img src="./assets/svg/chips/site-vite.svg" height="28" alt="Vite"/><br/>
-<img src="./assets/svg/chips/site-react-router.svg" height="28" alt="React Router"/><br/>
-<img src="./assets/svg/chips/site-github-actions.svg" height="28" alt="GitHub Actions"/><br/>
-<img src="./assets/svg/chips/site-cloudflare-turnstile.svg" height="28" alt="Cloudflare Turnstile"/>
+<img src="./assets/svg/chips/site-react-19.svg" height="28" alt="React 19"/> <img src="./assets/svg/chips/site-typescript.svg" height="28" alt="TypeScript"/> <img src="./assets/svg/chips/site-vite.svg" height="28" alt="Vite"/> <img src="./assets/svg/chips/site-react-router.svg" height="28" alt="React Router"/> <img src="./assets/svg/chips/site-github-actions.svg" height="28" alt="GitHub Actions"/> <img src="./assets/svg/chips/site-cloudflare-turnstile.svg" height="28" alt="Cloudflare Turnstile"/>
 
-</td>
-</tr>
-</table>
+<br/><br/>
 
 <div align="center">
 
@@ -109,7 +97,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/monitor.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Front-End**
+<b>Front-End</b>
 <br/><br/>
 <img src="./assets/svg/chips/fe-javascript.svg" height="28" alt="JavaScript"/><br/><img src="./assets/svg/chips/fe-typescript.svg" height="28" alt="TypeScript"/><br/><img src="./assets/svg/chips/fe-react.svg" height="28" alt="React"/><br/><img src="./assets/svg/chips/fe-html5.svg" height="28" alt="HTML5"/><br/><img src="./assets/svg/chips/fe-css.svg" height="28" alt="CSS"/>
 
@@ -118,7 +106,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/server.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Back-End &amp; CMS**
+<b>Back-End &amp; CMS</b>
 <br/><br/>
 <img src="./assets/svg/chips/be-python.svg" height="28" alt="Python"/><br/><img src="./assets/svg/chips/be-django.svg" height="28" alt="Django"/><br/><img src="./assets/svg/chips/be-wagtail.svg" height="28" alt="Wagtail"/><br/><img src="./assets/svg/chips/be-postgresql.svg" height="28" alt="PostgreSQL"/>
 
@@ -127,7 +115,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/pen.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Design &amp; Creative**
+<b>Design &amp; Creative</b>
 <br/><br/>
 <img src="./assets/svg/chips/de-illustrator.svg" height="28" alt="Illustrator"/><br/><img src="./assets/svg/chips/de-photoshop.svg" height="28" alt="Photoshop"/><br/><img src="./assets/svg/chips/de-after-effects.svg" height="28" alt="After Effects"/><br/><img src="./assets/svg/chips/de-premiere-pro.svg" height="28" alt="Premiere Pro"/>
 
@@ -136,7 +124,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/wrench.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Tooling**
+<b>Tooling</b>
 <br/><br/>
 <img src="./assets/svg/chips/tl-git.svg" height="28" alt="Git"/><br/><img src="./assets/svg/chips/tl-github.svg" height="28" alt="GitHub"/><br/><img src="./assets/svg/chips/tl-vite.svg" height="28" alt="Vite"/>
 
@@ -155,7 +143,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/user.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**User-First**
+<b>User-First</b>
 <br/>
 <sub>Every decision traces back to how someone actually interacts with the product.</sub>
 
@@ -164,7 +152,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/blocks.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Component Integrity**
+<b>Component Integrity</b>
 <br/>
 <sub>Clean abstractions and consistent patterns that scale without friction.</sub>
 
@@ -173,7 +161,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/eye.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Accessible by Default**
+<b>Accessible by Default</b>
 <br/>
 <sub>Not a finishing touch. A baseline requirement from day one.</sub>
 
@@ -182,7 +170,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <img src="./assets/svg/icons/gauge.svg" width="28" height="28" align="absmiddle" alt=""/>
 <br/>
-**Performance as UX**
+<b>Performance as UX</b>
 <br/>
 <sub>Speed and responsiveness are features, not post-launch fixes.</sub>
 
@@ -252,9 +240,9 @@ Every project I ship carries a written brand system before a single line of inte
 A chess application built on the same premise as everything above: restraint is a design choice, not an absence of one. Woodland Chess has three modes that share one visual language, and it inherits the Abyssal Liturgy system directly, with near-black surfaces, Cormorant Garamond italics, one 24px icon family and a 2px radius. Every colour, spacing value and easing curve lives as a CSS custom property.
 
 <table>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/cpu.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">**Computer.** Stockfish 18 Lite running locally as WebAssembly</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/globe.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">**Online.** Live games through the Lichess Board API</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/puzzle.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">**Puzzles.** Rated tactics from the Lichess puzzle database</td></tr>
+<tr><td width="36" valign="top"><img src="./assets/svg/icons/cpu.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Computer.</b> Stockfish 18 Lite running locally as WebAssembly</td></tr>
+<tr><td width="36" valign="top"><img src="./assets/svg/icons/globe.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Online.</b> Live games through the Lichess Board API</td></tr>
+<tr><td width="36" valign="top"><img src="./assets/svg/icons/puzzle.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Puzzles.</b> Rated tactics from the Lichess puzzle database</td></tr>
 </table>
 
 <div align="center">
