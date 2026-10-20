@@ -37,7 +37,7 @@ My day to day work runs on React, TypeScript and Vite, with Django, Wagtail and 
 <img src="./assets/svg/icons/spark.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Core Strengths</b>
 
 <table>
-<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/pen.svg" width="32" height="32" alt=""/></td><td valign="middle">Design-to-code, Figma to production CSS</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/pen.svg" width="32" height="32" alt=""/></td><td valign="middle">Design-to-code, Figma to production-ready websites</td></tr>
 <tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/accessibility.svg" width="32" height="32" alt=""/></td><td valign="middle">Accessible, responsive interface engineering</td></tr>
 <tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/motion.svg" width="32" height="32" alt=""/></td><td valign="middle">Motion and interaction design</td></tr>
 <tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/blocks.svg" width="32" height="32" alt=""/></td><td valign="middle">Design systems at scale</td></tr>
