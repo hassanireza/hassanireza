@@ -29,7 +29,7 @@ I build production-grade interfaces where technical rigor meets visual craft: co
 
 I work the seam between mockup and shipped product, holding engineering discipline and design judgment to the same standard so the distance between the two stays as close to zero as possible.
 
-My day to day work runs on React, TypeScript and Vite, with Django, Wagtail and PostgreSQL behind content driven sites. Illustrator, Photoshop and After Effects sit alongside the code, so visual decisions and their implementation stay in one pair of hands. Below you will find my portfolio, tools, principles, brand system and Woodland Chess.
+My day to day work runs on React, TypeScript and Vite, with Django, Wagtail and PostgreSQL behind content driven sites. Illustrator, Photoshop and After Effects sit alongside the code, so visual decisions and their implementation stay in one pair of hands.
 
 </td>
 <td width="35%" valign="top">
