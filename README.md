@@ -35,11 +35,11 @@ I work the seam between mockup and shipped product, holding engineering discipli
 <img src="./assets/svg/icons/spark.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Core Strengths</b>
 
 <table>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/pen.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Design-to-code, Figma to production CSS</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/accessibility.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Accessible, responsive interface engineering</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/motion.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Motion and interaction design</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/blocks.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Design systems at scale</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/database.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Django and Wagtail integration</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/pen.svg" width="32" height="32" alt=""/></td><td valign="middle">Design-to-code, Figma to production CSS</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/accessibility.svg" width="32" height="32" alt=""/></td><td valign="middle">Accessible, responsive interface engineering</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/motion.svg" width="32" height="32" alt=""/></td><td valign="middle">Motion and interaction design</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/blocks.svg" width="32" height="32" alt=""/></td><td valign="middle">Design systems at scale</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/database.svg" width="32" height="32" alt=""/></td><td valign="middle">Django and Wagtail integration</td></tr>
 </table>
 
 </td>
@@ -63,11 +63,11 @@ I work the seam between mockup and shipped product, holding engineering discipli
 <img src="./assets/svg/icons/browser.svg" width="20" height="20" align="absmiddle" alt=""/> <b>What it does</b>
 
 <table width="100%">
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/particles.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Landing page with a canvas-based particle field animation</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/board.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">A portfolio grid pulling from a single typed data source, so adding a project is a two-line edit, not a layout change</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/shield.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">A contact form protected by Cloudflare Turnstile, submitting through Formspree</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/alert.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">A branded 404 page for any unmatched route, styled to match the rest of the site</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/deploy.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top">Zero manual deploys: CI lints, type-checks, builds, and publishes on every push</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/particles.svg" width="32" height="32" alt=""/></td><td valign="middle">Landing page with a canvas-based particle field animation</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/board.svg" width="32" height="32" alt=""/></td><td valign="middle">A portfolio grid pulling from a single typed data source, so adding a project is a two-line edit, not a layout change</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/shield.svg" width="32" height="32" alt=""/></td><td valign="middle">A contact form protected by Cloudflare Turnstile, submitting through Formspree</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/alert.svg" width="32" height="32" alt=""/></td><td valign="middle">A branded 404 page for any unmatched route, styled to match the rest of the site</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/deploy.svg" width="32" height="32" alt=""/></td><td valign="middle">Zero manual deploys: CI lints, type-checks, builds, and publishes on every push</td></tr>
 </table>
 
 <br/>
@@ -240,9 +240,9 @@ Every project I ship carries a written brand system before a single line of inte
 A chess application built on the same premise as everything above: restraint is a design choice, not an absence of one. Woodland Chess has three modes that share one visual language, and it inherits the Abyssal Liturgy system directly, with near-black surfaces, Cormorant Garamond italics, one 24px icon family and a 2px radius. Every colour, spacing value and easing curve lives as a CSS custom property.
 
 <table>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/cpu.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Computer.</b> Stockfish 18 Lite running locally as WebAssembly</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/globe.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Online.</b> Live games through the Lichess Board API</td></tr>
-<tr><td width="36" valign="top"><img src="./assets/svg/icons/puzzle.svg" width="20" height="20" align="absmiddle" alt=""/></td><td valign="top"><b>Puzzles.</b> Rated tactics from the Lichess puzzle database</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/cpu.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Computer.</b> Stockfish 18 Lite running locally as WebAssembly</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/globe.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Online.</b> Live games through the Lichess Board API</td></tr>
+<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/puzzle.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Puzzles.</b> Rated tactics from the Lichess puzzle database</td></tr>
 </table>
 
 <div align="center">
