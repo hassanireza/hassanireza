@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="./assets/svg/index-01.svg" height="26" alt="01"/>&nbsp;&nbsp;About
+## <img src="./assets/svg/index-01.svg" height="26" align="absmiddle" alt="01"/>&nbsp;&nbsp;About
 
 <table>
 <tr>
@@ -28,6 +28,8 @@
 I build production-grade interfaces where technical rigor meets visual craft: component architecture, design systems, motion, and full-stack integration, with accessibility and performance treated as requirements rather than finishing touches.
 
 I work the seam between mockup and shipped product, holding engineering discipline and design judgment to the same standard so the distance between the two stays as close to zero as possible.
+
+My day to day work runs on React, TypeScript and Vite, with Django, Wagtail and PostgreSQL behind content driven sites. Illustrator, Photoshop and After Effects sit alongside the code, so visual decisions and their implementation stay in one pair of hands. Below you will find my portfolio, tools, principles, brand system and Woodland Chess.
 
 </td>
 <td width="35%" valign="top">
@@ -48,7 +50,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-## <img src="./assets/svg/index-02.svg" height="26" alt="02"/>&nbsp;&nbsp;Portfolio Website
+## <img src="./assets/svg/index-02.svg" height="26" align="absmiddle" alt="02"/>&nbsp;&nbsp;Portfolio Website
 
 <div align="center">
 
@@ -60,7 +62,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-<img src="./assets/svg/icons/browser.svg" width="20" height="20" align="absmiddle" alt=""/> <b>What it does</b>
+<img src="./assets/svg/icons/h-browser.svg" width="20" height="20" align="absmiddle" alt=""/> <b>What it does</b>
 
 <table width="100%">
 <tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/particles.svg" width="32" height="32" alt=""/></td><td valign="middle">Landing page with a canvas-based particle field animation</td></tr>
@@ -72,7 +74,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-<img src="./assets/svg/icons/layers.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Built with</b>
+<img src="./assets/svg/icons/h-layers.svg" width="20" height="20" align="absmiddle" alt=""/> <b>Built with</b>
 
 <br/>
 
@@ -88,7 +90,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-## <img src="./assets/svg/index-03.svg" height="26" alt="03"/>&nbsp;&nbsp;Tech Stack
+## <img src="./assets/svg/index-03.svg" height="26" align="absmiddle" alt="03"/>&nbsp;&nbsp;Tech Stack
 
 <table align="center">
 
@@ -135,7 +137,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-## <img src="./assets/svg/index-04.svg" height="26" alt="04"/>&nbsp;&nbsp;Design Philosophy
+## <img src="./assets/svg/index-04.svg" height="26" align="absmiddle" alt="04"/>&nbsp;&nbsp;Design Philosophy
 
 <table align="center">
 <tr>
@@ -192,7 +194,7 @@ I work the seam between mockup and shipped product, holding engineering discipli
 
 <br/>
 
-## <img src="./assets/svg/index-05.svg" height="26" alt="05"/>&nbsp;&nbsp;Brand &amp; Art Direction
+## <img src="./assets/svg/index-05.svg" height="26" align="absmiddle" alt="05"/>&nbsp;&nbsp;Brand &amp; Art Direction
 
 <div align="center">
 <img src="./assets/svg/divider.svg" width="100%" height="1" alt=""/>
@@ -220,7 +222,7 @@ Every project I ship carries a written brand system before a single line of inte
 
 <br/>
 
-## <img src="./assets/svg/index-06.svg" height="26" alt="06"/>&nbsp;&nbsp;Highlighted Project
+## <img src="./assets/svg/index-06.svg" height="26" align="absmiddle" alt="06"/>&nbsp;&nbsp;Highlighted Project
 
 <div align="center">
 
