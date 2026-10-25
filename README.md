@@ -235,31 +235,6 @@ Every project I ship carries a written brand system before a single line of inte
 <img src="./assets/svg/mark-woodland.svg" width="40" height="40" alt=""/>
 
 ### [Woodland Chess](https://woodlandchess.github.io/)
-<sub>Mobile-first chess app | Stockfish in WebAssembly, Lichess integration, live demo</sub>
-
-</div>
-
-A chess application built on the same premise as everything above: restraint is a design choice, not an absence of one. Woodland Chess has three modes that share one visual language, and it inherits the Abyssal Liturgy system directly, with near-black surfaces, Cormorant Garamond italics, one 24px icon family and a 2px radius. Every colour, spacing value and easing curve lives as a CSS custom property.
-
-<table>
-<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/cpu.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Computer.</b> Stockfish 18 Lite running locally as WebAssembly</td></tr>
-<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/globe.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Online.</b> Live games through the Lichess Board API</td></tr>
-<tr><td width="64" align="center" valign="middle"><img src="./assets/svg/icons/puzzle.svg" width="32" height="32" alt=""/></td><td valign="middle"><b>Puzzles.</b> Rated tactics from the Lichess puzzle database</td></tr>
-</table>
-
-<div align="center">
-<img src="./assets/svg/woodland-architecture.svg" width="100%" alt="Woodland Chess architecture: a shared UI layer feeds three independent modes, Computer, Online and Puzzles, each backed by its own services and external dependency"/>
-</div>
-
-<br/>
-
-The front end is a strict-TypeScript React SPA served from Vite, with History API routing and no router dependency. There is no backend of our own: Computer mode makes no network calls beyond loading fonts, online play uses OAuth with PKCE straight from the browser, and puzzles read the public Lichess API. A thin shared layer (menu frame, mode navigation, design tokens) sits under three independent modes: `chess.js` and a Stockfish UCI client for Computer, an NDJSON stream reader for Online, and a state-machine puzzle engine with scoring, streaks and achievements. CI tests, builds and deploys to GitHub Pages on every push.
-
-<div align="center">
-
-<img src="./assets/svg/chips/wc-react.svg" height="28" alt="React"/> <img src="./assets/svg/chips/wc-typescript.svg" height="28" alt="TypeScript"/> <img src="./assets/svg/chips/wc-vite.svg" height="28" alt="Vite"/> <img src="./assets/svg/chips/wc-webassembly.svg" height="28" alt="WebAssembly"/> <img src="./assets/svg/chips/wc-lichess.svg" height="28" alt="Lichess"/> <img src="./assets/svg/chips/wc-github-pages.svg" height="28" alt="GitHub Pages"/>
-
-<br/><br/>
 
 <a href="https://woodlandchess.github.io/"><img src="./assets/svg/buttons/play.svg" height="48" alt="Play Woodland Chess"/></a>
 <a href="https://github.com/woodlandChess/woodlandChess.github.io"><img src="./assets/svg/buttons/source.svg" height="48" alt="Woodland Chess source on GitHub"/></a>
